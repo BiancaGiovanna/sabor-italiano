@@ -1,4 +1,5 @@
 import cardapio from 'data/cardapio.json';
+import nossaCasa from 'assets/nossa_casa.png';
 import styles from './Inicio.module.scss';
 import stylesTema from 'styles/Tema.module.scss';
 
@@ -21,9 +22,15 @@ export default function Inicio(){
 							Ver mais +
 						</button>
 					</div>
-
 				))}
 			</div>
+			<h3 className={stylesTema.titulo}> Nossa casa </h3> 
+			<div className={styles.nossaCasa}>
+				<img src={nossaCasa} alt="Casa do aluroni" />
+				<div className={styles.nossaCasa__endereco}>
+        Rua da pipoca, 1234 <br /> <br /> Algum lugar - SP
+				</div> 
+			</div> 
 		</section>
 	);
 }

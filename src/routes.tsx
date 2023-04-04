@@ -1,6 +1,6 @@
 import Footer from 'components/Footer';
 import PaginaPadrao from 'components/PaginaPadrao';
-import Menu from 'components/Menu';
+import Menu from 'components/menu';
 import Cardapio from 'pages/Cardapio';
 import Inicio from 'pages/inicio';
 import NotFound from 'pages/NotFound';
